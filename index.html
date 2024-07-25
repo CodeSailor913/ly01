@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{margin: 0;
+            height: 100vh;
+            background-color: rgb(42, 42, 42);
+
+
+        }
+        /* *{: 1px solid black} */
+        .bianyuan{background-color: #ffffff0f;}/* 图片背景色 */
+        .flex{display: flex;
+        .flex1{flex: 1;}   
+        .flex2{flex: 2;}  
+        .column{flex-direction: column;}
+        .heise{background-color: rgb(23, 23, 23);}
+        .heise2{background-color: rgb(54, 54, 54);}
+        .baise{background-color: #ffffff;}
+    
+        .tianse{background-color: rgba(0, 0, 0, 0.141);}/* 下边框填色 */
+        .jianbian{background-color: #ffffff 10% black 90%;}
+        }
+        .zitiyanse{font-size: 8px;color: #656565;}
+
+        .hangju{font-size: 12pt;line-height: 0.5;}
+        .mgr{margin-right: 300px;}
+        .mgr10{margin-right: 10px;}
+        .mgl{margin-left: 300px;}
+        .mgt100{margin-top: 100px;}
+        .mgt70{margin-top: 70px;}
+        .mgt30{margin-top: 30px;}
+        .mgt5{margin-top: 5px;}
+        .mgt130{margin-top: 130px;}
+        .center{margin:auto}
+        .x{-bottom: 1px solid rgba(255, 255, 255, 0.381);}
+        .daohang{
+            padding: 8px;
+            font-size: 15px;
+            color: rgba(255, 255, 255, 0.573);
+            -bottom: 1px rgba(255, 255, 255, 0.922);
+        }
+       .yinying{box-shadow: -3px 5px 6px 1px rgba(0, 0, 0, 0.197);}
+      /* 当屏幕小于600px时竖向显示 */
+       @media (max-width: 600px;){
+        .cebian{display: none;}
+        .shuxiang{flex-direction: column;}
+       }
+    </style>
+</head>
+<body class="flex1 column">
+    
+    <!-- 头部栏 -->
+    <div style="height: 200px;" class="flex">
+        <div class="flex flex1 column heise2">
+            <!-- 空白 -->
+            <div style="height: 5px;" class="heise "></div>
+            <!-- 头像 -->
+            <div style="height: 120px;" class="center bor">
+                <img src="./图片/jiaotouxiang2.png"  alt="touxiang" height="140px" width="135px">
+            </div>
+            <!-- 导航 -->
+            <div style="height: 50px;" class="heise ">
+                <div class="flex ">
+                    <div style="flex: 3;"></div>
+                    <div style="width: 60px;" class="daohang">作  品</div>
+                    <div style="width: 60px;" class="daohang">简  介</div>
+                    <div style="width: 60px;" class="daohang ">
+                        <a href="https://weibo.com/u/1600554603"><div style="color: #ffffff;">微 博</div></a> </div>
+                    <div style="flex: 1;"></div>
+                    
+
+                </div>
+            </div>
+
+        </div>
+              
+        
+    </div>
+    <!-- 内容栏 -->
+    <div class=" shuxiang flex bianyuan">
+        <div style="width: 300px;" class="flex2  cebian"></div>
+       <div style="height: 500px; " class="flex1 mgr10 mgt5 heise yinying">
+        <img src="./图片/lianyaoLYzuopin/500pxrenyufeiyu.jpg" alt="" height="500px" width="150px">
+       </div>
+       <div style="height: 500px; " class="flex1 mgr10 mgt30 heise  yinying">
+        <img src="./图片/lianyaoLYzuopin/500pxrenyufeiyu2.jpg" alt="" height="500" width="150px">
+       </div>
+       <div style="height: 500px; " class="flex1 mgr10  heise mgt5 yinying">
+        <img src="./图片/lianyaoLYzuopin/500pxrenyujisi.png" alt="" height="500px" width="150px">
+       </div>
+       <div style="height: 500px; " class="flex1 mgr10 mgt30 heise  yinying">
+        <img src="./图片/lianyaoLYzuopin/500PXwuzhe.png" alt="" height="500px" width="150px">
+       </div>
+       <div style="height: 500px; " class="flex1 mgr10  heise mgt5 yinying">
+        <img src="./图片/lianyaoLYzuopin/500pxrenyuliao.png" alt=""height="500px" width="150px">
+       </div>
+       <div style="height: 500px; " class="flex1 mgt30 heise  yinying">
+        <img src="./图片/lianyaoLYzuopin/500pxjiao.png" alt="" height="500px" width="150px">
+       </div>
+       <div style="width: 300px;" class="flex2  cebian" ></div>
+    </div>
+ 
+    
+
+  <!-- 尾部简介 -->
+  <div style="height: 10px;" class="flex bianyuan" ></div>
+  <div style="height: 200px;" class="flex">
+    <div style="flex: 1;;" class="flex tianse"></div>
+    <div style="flex: 3;;" class="flex ">
+        <div class="flex column zitiyanse">
+            <div style="margin-top: 20px;">
+                <h1 style="font-size: 15px ;">-炼妖LY-</h1></div>
+            
+            <div class="hangju">
+            
+            <p>游戏原画师/插画师</p>
+                <p>新浪微博 ID：炼妖LY</p>    
+                <p>bilibili ID：炼妖LY</p>  
+                <p>ArtStation ID：炼妖LY</p>  
+               
+            </div>
+            
+          
+        </div>
+    </div>
+   
+    
+  
+  </div>
+ </div>
+
+</body>
+</html>
